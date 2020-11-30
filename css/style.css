@@ -221,6 +221,11 @@ section
     text-align: center;
     margin-top: 40px;
 }
+.portfolio .content .box .imgBox a
+{
+    position: relative;
+    width: fit-content;
+}
 .portfolio .content .box img
 {
     width: 100%;
