@@ -7,41 +7,216 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
         <a href="#" class="logo">B<span> - </span>Port<span></span></a>
         <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
             <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
-            <li><a href="#about" onclick="toggleMenu();">Tentang Saya</a></li>
-            <li><a href="#experience" onclick="toggleMenu();">Pengalaman</a></li>
-            <li><a href="#skills" onclick="toggleMenu();">Kemampuan</a></li>
-            <li><a href="#portfolio" onclick="toggleMenu();">Portofolio</a></li>
-            <li><a href="#contact" onclick="toggleMenu();">Kontak</a></li>
+            <li><a href="#experience" onclick="toggleMenu();">Work Experiences</a></li>
+            <li><a href="#portfolio" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About Me</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
         </ul>
     </header>
-    <!-- End of Header -->
 
     <section class="banner" id="banner">
         <div class="content">
-            <img src="images/bima.jpg">
             <h2>Bima Aria Radjasa</h2>
-            <p>Web Developer dan Web Designer</p>
-            <a href="#about" class="btn-outline">Tentang Saya</a>
-            <a href="cv.pdf" class="btn">Download CV</a>
+            <p>Full Stack Developer | Software Engineer</p>
+            <a href="#about" class="btn-outline">About me</a>
+            <a href="cv.pdf" class="btn">Resume</a>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="titleText"><span>W</span>ork <span>E</span>xperiences</h2>
+        <div class="row">
+            <div class="col50">
+                <h3>Full Stack Developer | Dec 2021 - Present<br>PT IIJ Global Solutions Indonesia</h3>
+                <ul>
+                    <li>Analyze and create the plan of system requirement</li>
+                    <li>Write API spec / documentation</li>
+                    <li>Analyze 3rd parties API</li>
+                    <li>Design and implement the database structure
+                    <li>Optimize database queries for performance
+                    <li>Handle server-side development, such as create application logic, APIs, and integrate system with database and 3rd parties API</li>
+                    <li>Test server-side logic and APIs with Postman</li>
+                    <li>Test UI and UX with manual approach</li>
+                    <li>Fix bug and error</li>
+                    <li>Review code of another team member</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col50">
+                <h3>IT Programmer Staff | Dec 2020 - Dec 2021<br>PT Ki Antaka Rasa</h3>
+                <ul>
+                    <li>Analyze and create the plan of system requirement</li>
+                    <li>Design and implement the database structure</li>
+                    <li>Optimize database queries for performance</li>
+                    <li>Handle server-side development, such as create application logic, APIs, and integrate
+                    system with database and 3rd parties API</li>
+                    <li>Test server-side logic and APIs with Postman</li>
+                    <li>Test UI and UX with manual approach</li>
+                    <li>Fix bug and error</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="titleText"><span>P</span>rojects</h2>
+        <div class="content">
+            <div class="box">
+                <div class="imgBox">
+                    <a href="https://safous.com"><img src="images/logos/logo-safous.png"></a>
+                </div>
+                <h3>Safous</h3>
+                <div class="text" style="text-align: justify;">
+                    <p>Safous is web application that implements Zero Trust Security as a Service. In this project, I worked as a team and responsibled to handle both back-end and front-end tasks.
+                    <br />
+                    Tech Stack: Laravel, React js, MySQL.</p>
+                </div>
+                <!-- <a href="https://github.com/bimaaria/laravel_my_gym" class="btn-outline">Source Code</a> -->
+                <a href="https://safous.com" class="btn" target="_blank">Live Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="titleText"><span>S</span>kills</h2>
+        <div class="content">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/html.png">
+                </div>
+                <div class="text">
+                    <h3>HTML</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/css.png">
+                </div>
+                <div class="text">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/tailwind-css.png">
+                </div>
+                <div class="text">
+                    <h3>Tailwind CSS</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/js.png">
+                </div>
+                <div class="text">
+                    <h3>Javascript</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/typescript.png">
+                </div>
+                <div class="text">
+                    <h3>Typescript</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/react.png">
+                </div>
+                <div class="text">
+                    <h3>React</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/nextjs.png">
+                </div>
+                <div class="text">
+                    <h3>Next Js</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/node.png">
+                </div>
+                <div class="text">
+                    <h3>Node Js</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/express-js.png">
+                </div>
+                <div class="text">
+                    <h3>Express Js</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/php.png">
+                </div>
+                <div class="text">
+                    <h3>PHP</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/laravel.png">
+                </div>
+                <div class="text">
+                    <h3>Laravel</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/postgresql.png">
+                </div>
+                <div class="text">
+                    <h3>PostgreSQL</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/mysql.png">
+                </div>
+                <div class="text">
+                    <h3>MySQL</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/docker.png">
+                </div>
+                <div class="text">
+                    <h3>Docker</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/logos/tech/git.png">
+                </div>
+                <div class="text">
+                    <h3>Git</h3>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="about" id="about">
-        <h2 class="titleText"><span>T</span>entang <span>S</span>aya</h2>
+        <h2 class="titleText"><span>A</span>bout <span>M</span>e</h2>
         <div class="row">
             <div class="col50">
                 <p>
-                    Seorang web developer dengan 1 tahun pengalaman sebagai profesional. Mendalami PHP dan Javascript, baik native maupun framework. Berpengalaman membuat beragam jenis website dan webapp, mulai dari landing page, company profile, hingga aplikasi ERP. Berpengalaman membuat aplikasi mobile dengan react native.
-                    <br><br>
-                    Memiliki logika dan kemampuan analisis, dan problem solving yang baik. Dapat bekerja sebagai individu maupun sebagai tim. 
-                    <br><br>
-                    Lulus dari Universitas Indraprasta PGRI pada tahun 2020 dengan gelar S.Kom dan IPK 3,51. Saat ini saya sedang aktif bekerja sebagai IT Programmer Staff di PT Ki-Antaka Rasa. Tugas utama saya adalah membuat ERP berbasis website. 
+                    Highly skilled and motivated Full Stack Developer with 2 years of professional experience in developing and delivering web applications. Possessing expertise in both front-end and back-end technologies. I love to work with Javascript ecosystem and it’s frameworks.
+                    Problem-solving oriented person who has a high willingness to learn about modern technologies. I able to work independently and excel in collaborating with cross-functional teams. 
                 </p> 
             </div>
             <div class="col50">
@@ -52,245 +227,23 @@
         </div>
     </section>
 
-    <section class="experience" id="experience">
-        <h2 class="titleText"><span>P</span>engalaman <span>K</span>erja</h2>
-        <div class="row">
-            <div class="col50">
-                <h3>IT Programmer Staff | Des 2020 - Sekarang<br>PT Ki-Antaka Rasa</h3>
-                <p>Tugas saya selama bekerja di PT Ki-Antaka Rasa : </p>
-                <ul>
-                    <li>Membuat aplikasi ERP berbasis website</li>
-                    <li>Migrasi aplikasi yang sudah ada ke versi yang lebih baru</li>
-                    <li>Memelihara aplikasi dan database</li>
-                </ul>
-            </div>
-            <div class="col50">
-                <div class="imgBox">
-                    <img src="images/antaka1.JPG">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col50">
-                <h3>KP / Magang | Feb - Mar 2020<br>Lembaga Penerbangan dan Antariksa Nasional</h3>
-                <p>Tugas saya selama magang di LAPAN : </p>
-                <ul>
-                    <li>Membuat rancangan database dan halaman admin aplikasi kepuasan masyarakat</li>
-                </ul>
-            </div>
-            <div class="col50">
-                <div class="imgBox">
-                    <img src="images/lapan.JPG">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="skills" id="skills">
-        <h2 class="titleText"><span>K</span>emampuan</h2>
-        <div class="content">
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/html.png">
-                </div>
-                <div class="text">
-                    <h3>HTML</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/css.png">
-                </div>
-                <div class="text">
-                    <h3>CSS</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/js.png">
-                </div>
-                <div class="text">
-                    <h3>Javascript</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/JQuery.png">
-                </div>
-                <div class="text">
-                    <h3>JQuery</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/react.png">
-                </div>
-                <div class="text">
-                    <h3>React</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/node.png">
-                </div>
-                <div class="text">
-                    <h3>Node Js</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/php.png">
-                </div>
-                <div class="text">
-                    <h3>PHP</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/laravel.png">
-                </div>
-                <div class="text">
-                    <h3>Laravel</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/mysql.png">
-                </div>
-                <div class="text">
-                    <h3>MySQL</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/java.png">
-                </div>
-                <div class="text">
-                    <h3>Java</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/figma.jpg">
-                </div>
-                <div class="text">
-                    <h3>Figma</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/xd.png">
-                </div>
-                <div class="text">
-                    <h3>Adobe XD</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/git.png">
-                </div>
-                <div class="text">
-                    <h3>Git</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <h2 class="titleText"><span>P</span>ortfolio</h2>
-        <div class="content">
-            <div class="box">
-                <div class="imgBox">
-                    <a href="https://bimaaria.github.io/my-gym/"><img src="images/portofolio/my-gym/Home.JPG"></a>
-                </div>
-                <div class="text">
-                    <h3>Website Company Profile My-Gym</h3>
-                    <p>Website ini dibuat dengan menggunakan HTML, CSS, dan JavaScript. Tampilan website ini sudah responsif di berbagai device.</p>
-                </div>
-                <a href="https://github.com/bimaaria/laravel_my_gym" class="btn-outline">Lihat Source Code</a>
-                <a href="https://bimaaria.github.io/my-gym/" class="btn">Lihat Project</a>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <a href="https://brpetshop.vercel.app/"><img src="images/portofolio/brpetshop.JPG"></a>
-                </div>
-                <div class="text">
-                    <h3>Website Landing Paeg brPetShop</h3>
-                    <p>Website ini dibuat dengan menggunakan HTML, CSS, dan JavaScript. Tampilan website ini sudah responsif di berbagai device.</p>
-                </div>
-                <a href="https://github.com/bimaaria/brLandingPage" class="btn-outline">Lihat Source Code</a>
-                <a href="https://brpetshop.vercel.app/" class="btn">Lihat Project</a>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/Bims-Garage.JPG">
-                </div>
-                <div class="text">
-                    <h3>Website E-commerce Bima's Car</h3>
-                    <p>Website ini merupakan project untuk kebutuhan portofolio dan belum di hosting. Backend dari website ini menggunakan Laravel.Untuk front-end nya menggunakan HTML, CSS, Bootstrap, JavaScript, dan JQuery</p>
-                </div>
-                <a href="https://github.com/bimaaria/mobilku" class="btn-outline">Lihat Source Code</a>
-                <a href="" class="btn">Lihat Project</a>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/SKM Lapan.JPG">
-                </div>
-                <div class="text">
-                    <h3>Website Aplikasi Kepuasan Masyarakat (Backend)</h3>
-                    <p>Ini adalah halaman admin dari aplikasi kepuasan masyarakat. Aplikasi ini dibuat dengan menggunakan Laravel dan menggunakan template admin klorofil. Pada aplikasi ini terdapat fitur CRUD sederhana.</p>
-                </div>
-                <a href="https://github.com/bimaaria/skm_lapan/tree/master" class="btn-outline">Lihat Source Code</a>
-                <a href="" class="btn">Lihat Project</a>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/portfolio.JPG">
-                </div>
-                <div class="text">
-                    <h3>Website Portofolio</h3>
-                    <p>Ini adalah salah satu website portofolio yang pernah saya buat. Dibuat menggunakan HTML, CSS, JavaScript, dan JQuery</p>
-                </div>
-                <a href="https://github.com/bimaaria/old_portfolio" class="btn-outline">Lihat Source Code</a>
-                <a href="https://bimaaria.github.io/old_portfolio/" class="btn">Lihat Project</a>
-            </div>
-            <div class="box">
-                <div class="imgBox">
-                    <img src="images/Form-Transaksi.JPG">
-                </div>
-                <div class="text">
-                    <h3>Aplikasi Penjualan Berbasis Java Desktop</h3>
-                    <p>Aplikasi ini dibuat dengan menggunakan Java. Aplikasi ini ditujukan untuk aplikasi desktop. Aplikasi ini berfungsi untuk melakukan pendataan penjualan pada toko Global Artha Computer. Aplikasi ini menggunakan database MySQL untuk penyimpanan data dan plugin iReport pada IDE Netbeans untuk meng-generate report.</p>
-                </div>
-                <a href="https://github.com/bimaaria/global_artha" class="btn-outline">Lihat Source Code</a>
-                <a href="https://github.com/bimaaria/global_artha" class="btn">Lihat Project</a>
-            </div>
-        </div>
-    </section>
-
     <section class="contact" id="contact">
-        <h2 class="titleText"><span>K</span>ontak</h2>
+        <h2 class="titleText"><span>R</span>each <span>M</span>e</h2>
         <div class="contactForm">
             <div class="socmed">
                 <img src="images/social/gmail (1).png">
                 <p>bima.aria.radjasa@gmail.com</p>
             </div>
-            <div class="socmed">
+            <!-- <div class="socmed">
                 <img src="images/social/whatsapp.png">
                 <p>+62 812 8484 1535</p>
-            </div>
+            </div> -->
             <div class="socmed">
                 <img src="images/social/linkedin.png">
                <a href="https://www.linkedin.com/in/bima-aria-radjasa-4b54331b5/">Bima Aria Radjasa</a>
             </div>
         </div>    
     </section>
-
-    <div class="copyrightText">
-        <p>&copy; 2021. Dibuat oleh Bima Aria Radjasa</p>
-    </div>
-    
-
     <script src="js/script.js"></script>
 </body>
 </html>
